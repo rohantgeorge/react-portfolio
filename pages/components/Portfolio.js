@@ -5,20 +5,14 @@ const Portfolio = (data) => {
   return (
     <div className="single-portfolio basis-1/3 flex-1 ">
       {console.log(data?.data?.acf.portfolio_image.url)}
-      {data?.data?.acf.portfolio_image.url == null &&
-        imgURL.push(data?.data?.acf.portfolio_image.url)}
-      {console.log(imgURL)}
       <div>
         <a
           rel="noreferrer"
           target="_blank"
           href={data?.data?.acf.portfolio_url}
         >
-          {/* <Image
-            src={data?.data?.acf.portfolio_image.url}
-            alt={data?.data?.acf.portfolio_image.title}
-          /> */}
-          <h2>{data?.data?.acf.portfolio_image.title}</h2>
+          <Image src={data?.data?.acf.portfolio_image.url} />
+          {/* alt={data?.data?.acf.portfolio_image.title} */}
         </a>
       </div>
     </div>
