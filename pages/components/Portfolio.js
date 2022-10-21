@@ -1,9 +1,5 @@
 import { React, useState, useEffect } from "react";
 import Image from "next/image";
-import truuth from "../public/truuth.png";
-import brandoformen from "../public/brandoformen.png";
-import parmbains from "../public/Parmbains.png";
-import blackFX from "../public/blackFX.png";
 
 import API from "../api/API.json";
 
