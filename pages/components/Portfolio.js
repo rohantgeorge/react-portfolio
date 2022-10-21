@@ -5,6 +5,9 @@ const Portfolio = (data) => {
   return (
     <div className="single-portfolio basis-1/3 flex-1 ">
       {console.log(data?.data?.acf.portfolio_image.url)}
+      {data?.data?.acf.portfolio_image.url == null &&
+        imgURL.push(data?.data?.acf.portfolio_image.url)}
+      {console.log(imgURL)}
       <div>
         <a
           rel="noreferrer"

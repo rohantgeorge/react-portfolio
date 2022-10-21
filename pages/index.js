@@ -24,6 +24,7 @@ const FEATURED_API = "https://rohantgeorge.com/wp-json/acf/v3/posts";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const [portfolios, setPortfolios] = useState([]);
+  var imgURL = [];
 
   useEffect(() => {
     fetch(FEATURED_API)
