@@ -112,6 +112,10 @@
   display: none;
 }
 
+.single-portfolio a span {
+  height: 100% !important;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
