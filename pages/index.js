@@ -10,12 +10,11 @@ import rohan from "../public/dev-ed-wave.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import truuth from "../public/truuth.png";
+import brandoformen from "../public/brandoformen.png";
+import parmbains from "../public/Parmbains.png";
+import blackFX from "../public/blackFX.png";
+
 import { useState, useEffect } from "react";
 import Portfolio from "../pages/components/Portfolio";
 

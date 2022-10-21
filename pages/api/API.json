@@ -1,0 +1,20 @@
+{
+    "Images": [
+        {
+            "URL": "../public/truuth.png",
+            "title": "truuth"
+        },
+        {
+            "URL": "../public/brandoformen.png",
+            "title": "brandoformen"
+        },
+        {
+            "URL": "../public/Parmbains.png",
+            "title": "Parmbains"
+        },
+        {
+            "URL": "../public/blackFX.png",
+            "title": "blackFX"
+        }
+    ]
+}
