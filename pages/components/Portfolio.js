@@ -6,11 +6,16 @@ const Portfolio = (data) => {
     <div className="single-portfolio basis-1/3 flex-1 ">
       {console.log(data?.data?.acf.portfolio_image.url)}
       <div>
-        <a rel="noreferrer" target="_blank" href={data?.data?.acf.portfolio_url}>
-          <Image
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href={data?.data?.acf.portfolio_url}
+        >
+          {/* <Image
             src={data?.data?.acf.portfolio_image.url}
             alt={data?.data?.acf.portfolio_image.title}
-          />
+          /> */}
+          <h2>{data?.data?.acf.portfolio_image.title}</h2>
         </a>
       </div>
     </div>
